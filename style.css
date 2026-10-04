@@ -1,1 +1,23 @@
-h1{color:lightblue; font-family: "Fascinate", system-ui;}
+h1{color:#315C3A; font-family: "Fascinate", system-ui;}
+h2{color:#5F7563; font-family: "fantasy;" , system-ui;}
+body { background-color: #FFF1F5; }
+nav a { color:#A65D76;}
+p { font-family: "Lora", serif;}
+#Shopping-Notes li { font-family: "Lora", serif;}
+p, li, label { color: #4A3B32;}
+body { line-height: 1.5; margin: 20px;}
+
+h1 { margin-bottom: 20px;}
+
+h2 { margin-top: 30px; margin-bottom: 15px; }
+
+nav { margin-bottom: 25px }
+
+li { margin-bottom: 8px; }
+body { margin: 20px; text-align: left;}
+
+h1 { text-align: center; }
+
+nav { text-align: center; }
+
+ul { padding-left: 25px; }

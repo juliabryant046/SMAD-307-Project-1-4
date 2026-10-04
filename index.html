@@ -2,12 +2,23 @@
 <html lang="en">
 	<head>
 		<title>Grocery List Planner</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<!--
+AI Use Disclosure:
+Tool(s): ChatGPT (free version)
+Purpose: Helped explain CSS concepts and troubleshoot styling, including fonts, colors, spacing, and alignment.
+Human Role: I applied the explanations to my own project, wrote and modified the CSS, and decided how I wanted the page to look.
+-->
 
 
 		  <meta charset="UTF-8">
 		  <meta name="description" content="Grocery List">
 		  <meta name="author" content="Grocery List">
 		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <link rel="stylesheet" href="style.css">
 	</head>
 
 <h1>Grocery List Planner</h1>
@@ -23,11 +34,10 @@
 <a href="#Shopping-Notes">Shopping-Notes</a> <br>
 </nav>
 <br>
-<br>
 
 <section id="Grocery-List">
 <h2>GROCERY LIST</h2>
-Frozen Food <br>
+<p>Frozen Food <br>
 		<input type="checkbox" id="Hamburger-meat">
 	<label for="Hamburger-meat">Hamburger-meat</label> <br>
 		<input type="checkbox" id="Chicken-breasts">
@@ -86,6 +96,7 @@ Frozen Food <br>
 <section id="Add-Items">
 <h2> ADD ITEMS</h2>
 <form>
+<p>
 	<label for="item-name">Item-Name:</label>
 		<input type="text" id="item-name" name="Milk">
 	<label for="category">Category:</label>
@@ -108,7 +119,7 @@ Frozen Food <br>
 
 <section id="Extra-Items">
 <h2>EXTRA ITEMS</h2> 
-		<input type="checkbox" id="Grape-Jelly">
+<p>		<input type="checkbox" id="Grape-Jelly">
 	<label for="Grape-Jelly">Grape-Jelly</label> <br>
 		<input type="checkbox" id="Peanut-Butter">
 	<label for="Peanut-Butter">Peanut-Butter</label> <br>
@@ -120,8 +131,6 @@ Frozen Food <br>
 	<label for="Potatoes">Potatoes</label> <br>
 </section>
 <br> 
-<br>
-<br>
 <section id="Shopping-Notes">
 <h2>SHOPPING NOTES</h2>
 <ul>
@@ -129,7 +138,7 @@ Frozen Food <br>
 	<li>Bring reusable bags</li>
 	<li>Get only what's needed first</li>
 	<li>Get cold/frozen things last</li>
-	<li>Compare pricies of on brand and off brand items
+	<li>Compare prices of on brand and off brand items
 	<li>Keep budget of $100</li> 
 </ul>
 </section>
