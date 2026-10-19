@@ -21,3 +21,15 @@ h1 { text-align: center; }
 nav { text-align: center; }
 
 ul { padding-left: 25px; }
+
+/* Remove bullets from grocery lists */
+#Grocery-List ul,
+#Extra-Items ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+/* Remove bullets from navigation links */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
