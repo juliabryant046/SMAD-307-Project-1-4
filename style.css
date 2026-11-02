@@ -1,26 +1,54 @@
-h1{color:#315C3A; font-family: "Fascinate", system-ui;}
-h2{color:#5F7563; font-family: "fantasy;" , system-ui;}
-body { background-color: #FFF1F5; }
-nav a { color:#A65D76;}
-p { font-family: "Lora", serif;}
-#Shopping-Notes li { font-family: "Lora", serif;}
-p, li, label { color: #4A3B32;}
-body { line-height: 1.5; margin: 20px;}
 
-h1 { margin-bottom: 20px;}
+h1 {
+    color: #315C3A;
+    font-family: "Fascinate", system-ui;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-h2 { margin-top: 30px; margin-bottom: 15px; }
+h2 {
+    color: #5F7563;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
 
-nav { margin-bottom: 25px }
+body {
+    background-color: #FFF1F5;
+    line-height: 1.5;
+    margin: 20px;
+    text-align: left;
+}
 
-li { margin-bottom: 8px; }
-body { margin: 20px; text-align: left;}
+nav {
+    margin-bottom: 25px;
+    text-align: center;
+}
 
-h1 { text-align: center; }
+nav a {
+    color: #A65D76;
+}
 
-nav { text-align: center; }
+p {
+    font-family: "Lora", serif;
+}
 
-ul { padding-left: 25px; }
+#Shopping-Notes li {
+    font-family: "Lora", serif;
+}
+
+p, li, label {
+    color: #4A3B32;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 25px;
+}
 
 /* Remove bullets from grocery lists */
 #Grocery-List ul,
@@ -28,8 +56,11 @@ ul { padding-left: 25px; }
     list-style-type: none;
     padding-left: 0;
 }
+
 /* Remove bullets from navigation links */
 nav ul {
     list-style-type: none;
     padding-left: 0;
 }
+
+
