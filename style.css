@@ -1,66 +1,145 @@
-
-h1 {
-    color: #315C3A;
-    font-family: "Fascinate", system-ui;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+h1{color:#315C3A; font-family: "Fascinate", system-ui;}
 h2 {
-    color: #5F7563;
-    font-family: "Lora", serif;
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+  color: #5F7563;
+  font-family: "Lora", serif;
+}
+body { background-color: #FFF1F5; }
+nav a { color:#A65D76;}
+p { font-family: "Lora", serif;}
+p, li, label { color: #4A3B32;}
+body { line-height: 1.5; margin: 20px;}
+
+h1 { margin-bottom: 20px;}
+
+h2 { margin-top: 30px; margin-bottom: 15px; }
+
+nav { margin-bottom: 25px }
+
+li { margin-bottom: 8px; }
+body { margin: 20px; text-align: left;}
+
+h1 { text-align: center; }
+
+nav { text-align: center; }
+
+ul { padding-left: 25px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.card-title {
+  color: #315C3A;
 }
 
-body {
-    background-color: #FFF1F5;
-    line-height: 1.5;
-    margin: 20px;
-    text-align: left;
+.navbar {
+  background-color: #FFF1F5;
 }
 
-nav {
-    margin-bottom: 25px;
-    text-align: center;
+.navbar a {
+  color: #A65D76;
 }
 
-nav a {
-    color: #A65D76;
+.navbar a:hover {
+  color: #315C3A;
 }
 
-p {
-    font-family: "Lora", serif;
+#Grocery-List .card-title {
+  margin-bottom: 30px;
 }
 
-#Shopping-Notes li {
-    font-family: "Lora", serif;
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #E8DCE0;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(74, 59, 50, 0.06);
 }
 
-p, li, label {
-    color: #4A3B32;
+.card-body {
+  padding: 24px;
 }
 
-li {
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #E8DCE0;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(74, 59, 50, 0.06);
+}
+
+.navbar {
+  background-color: #FCE4EC !important;
+}
+
+.btn-success {
+  background-color: #315C3A;
+  border-color: #315C3A;
+}
+
+.btn-success:hover {
+  background-color: #24452C;
+  border-color: #24452C;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #5F7563;
+  box-shadow: 0 0 0 0.2rem rgba(95, 117, 99, 0.2);
+}
+
+.card-body {
+  padding: 25px;
+}
+/* MOBILE RESPONSIVE IMPROVEMENTS */
+@media (max-width: 576px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  main.container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .card {
     margin-bottom: 8px;
+  }
+
+  .card-body {
+    padding: 16px;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 8px 12px;
+  }
+
+  .navbar-nav {
+    gap: 4px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 8px 12px;
+  }
+
 }
-
-ul {
-    padding-left: 25px;
-}
-
-/* Remove bullets from grocery lists */
-#Grocery-List ul,
-#Extra-Items ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-/* Remove bullets from navigation links */
-nav ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-
